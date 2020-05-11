@@ -1,0 +1,6 @@
+pane	0	1	:bash	1	:*	0	:/home/peng/bebop_ws/src/bebop_autonomy/bebop_behavior/scripts	0	bash	:
+pane	0	1	:bash	1	:*	1	:/home/peng/bebop_ws/src/bebop_autonomy/bebop_behavior/scripts	1	bash	:
+pane	0	1	:bash	1	:*	2	:/home/peng/bebop_ws/src/bebop_autonomy/bebop_behavior/scripts	0	bash	:
+pane	0	1	:bash	1	:*	3	:/home/peng/bebop_ws/src/bebop_autonomy/bebop_behavior/scripts	0	bash	:
+window	0	1	1	:*	1d3d,165x55,0,0[165x30,0,0{80x30,0,0,3,84x30,81,0,4},165x24,0,31{80x24,0,31,1,84x24,81,31,5}]
+state	0	
