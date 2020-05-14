@@ -23,6 +23,16 @@
 	url = https://github.com/ajh17/VimCompletesMe.git
 	branch = master
 
+[submodule "vim/bundle/dracula"]
+	path = vim/bundle/dracula
+	url = https://github.com/dracula/vim.git
+	branch = master
+
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+	branch = master
+
 [submodule "tmux/plugins/tmux-better-mouse-mode"]
 	path = tmux/plugins/tmux-better-mouse-mode
 	url = https://github.com/NHDaly/tmux-better-mouse-mode.git
