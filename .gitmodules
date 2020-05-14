@@ -1,39 +1,39 @@
 [submodule "vim/bundle/gruvbox"]
 	path = vim/bundle/gruvbox
-	url = git@github.com:morhetz/gruvbox.git
+	url = https://github.com/morhetz/gruvbox.git
 	branch = master
 
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
-	url = git@github.com:preservim/nerdtree.git
+	url = https://github.com/preservim/nerdtree.git
 	branch = master
 
 [submodule "vim/bundle/lightline.vim"]
 	path = vim/bundle/lightline.vim
-	url = git@github.com:itchyny/lightline.vim.git
+	url = https://github.com/itchyny/lightline.vim.git
 	branch = master
 
 [submodule "vim/plugged/vim-multiple-cursors"]
 	path = vim/plugged/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors.git
+	url = https://github.com/terryma/vim-multiple-cursors.git
 	branch = master
 
 [submodule "vim/pack/vendor/start/VimCompletesMe"]
 	path = vim/pack/vendor/start/VimCompletesMe
-	url = git@github.com:ajh17/VimCompletesMe.git
+	url = https://github.com/ajh17/VimCompletesMe.git
 	branch = master
 
 [submodule "tmux/plugins/tmux-better-mouse-mode"]
 	path = tmux/plugins/tmux-better-mouse-mode
-	url = git@github.com:NHDaly/tmux-better-mouse-mode.git
+	url = https://github.com/NHDaly/tmux-better-mouse-mode.git
 	branch = master
 
 [submodule "tmux/plugins/tmux-resurrect"]
 	path = tmux/plugins/tmux-resurrect
-	url = git@github.com:tmux-plugins/tmux-resurrect.git
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
 	branch = master
 
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
-	url = git@github.com:tmux-plugins/tpm.git
+	url = https://github.com/tmux-plugins/tpm.git
 	branch = master
