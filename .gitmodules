@@ -1,26 +1,6 @@
-[submodule "vim/bundle/gruvbox"]
-	path = vim/bundle/gruvbox
-	url = https://github.com/morhetz/gruvbox.git
-	branch = master
-
-[submodule "vim/bundle/nerdtree"]
-	path = vim/bundle/nerdtree
-	url = https://github.com/preservim/nerdtree.git
-	branch = master
-
-[submodule "vim/bundle/lightline.vim"]
-	path = vim/bundle/lightline.vim
-	url = https://github.com/itchyny/lightline.vim.git
-	branch = master
-
-[submodule "vim/plugged/vim-multiple-cursors"]
-	path = vim/plugged/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors.git
-	branch = master
-
-[submodule "vim/pack/vendor/start/VimCompletesMe"]
-	path = vim/pack/vendor/start/VimCompletesMe
-	url = https://github.com/ajh17/VimCompletesMe.git
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
 	branch = master
 
 [submodule "tmux/plugins/tmux-better-mouse-mode"]
