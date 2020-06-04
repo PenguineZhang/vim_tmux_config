@@ -7,6 +7,7 @@ set encoding=utf-8
 set incsearch
 set noshowmode
 set nomodeline
+set rnu
 syntax on
 
 filetype off                  " required
@@ -23,10 +24,9 @@ Plugin 'jremmen/vim-ripgrep'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-markdown'
-Plugin 'git@github.com:moll/vim-node.git'
 Plugin 'morhetz/gruvbox'
 Plugin 'hotoo/jsgf.vim'
-Plugin 'git@github.com:Valloric/YouCompleteMe.git'
+Plugin 'valloric/youcompleteme.git'
 Plugin 'lyuts/vim-rtags'
 Plugin 'w0rp/ale'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': { -> fzf#install() }}
@@ -39,6 +39,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'mbbill/undotree'
 Plugin 'vim-python/python-syntax'
 Plugin 'bogado/file-line'
+Plugin 'Tabmerge'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -79,10 +80,12 @@ endif
 " ale settings
 let g:ale_fixers = {'python': ['prettier']}
 let g:ale_linters = {'python': ['pylint']}
-" let g:ale_python_flake8_options = '--ignore=E501'
+nmap <c-j> :ALENext<CR>
+nmap <c-k> :ALEPrevious<CR>
+
 
 " Let definitions
-let mapleader= " "
+let mapleader=" "
 let g:ag_working_path_mode="r"
 
 " For simple sizing of splits.
@@ -96,7 +99,7 @@ nnoremap <silent> <C-p> :FZF -m<CR>
 
 " NERDcommenter mapping
 " toggle comment
-vmap <C-x> <leader>c<space>
+vmap <C-_> <leader>c<space>
 let g:NERDToggleCheckAllLines = 1
 let g:NERDCustomDelimiters={ 'c': {'left': '//', 'right': ''} }
 let g:NERDUsePlaceHolders=0
@@ -145,3 +148,4 @@ if has("autocmd")
     \ endif
   au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
+
