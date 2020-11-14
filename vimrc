@@ -26,7 +26,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-markdown'
 Plugin 'morhetz/gruvbox'
 Plugin 'hotoo/jsgf.vim'
-Plugin 'valloric/youcompleteme.git'
+Plugin 'valloric/youcompleteme'
 Plugin 'lyuts/vim-rtags'
 Plugin 'w0rp/ale'
 Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': { -> fzf#install() }}
