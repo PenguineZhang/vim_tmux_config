@@ -121,6 +121,10 @@ nmap <leader><leader> V
 vmap <Leader>y "+y
 vmap <Leader>= <C-W><C-=>
 
+" switch tabs easier
+map  <C-l> :tabn<CR>                                                                                                                         
+map  <C-h> :tabp<CR>                                                                                                                         
+map  <C-n> :tabnew<CR>          
 
 " Allow cursor movements during insert mode
 inoremap <C-e> <end>
