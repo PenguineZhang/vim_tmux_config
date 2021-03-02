@@ -7,4 +7,4 @@ do
 	fi
 done
 
-mv ycm_extra_conf.py ~/.vim/.ycm_extra_conf.py
+mv ~/.ycm_extra_conf.py ~/.vim/.ycm_extra_conf.py
