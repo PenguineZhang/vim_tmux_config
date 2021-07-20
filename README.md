@@ -10,4 +10,4 @@
 # (ONLY FOR YOUCOMPLETEME PLUGIN)
 - `cd ~/.vim/bundle/youcompleteme`
 - `./install.sh`
-- add the following to .vimrc file: `let g:ycm_global_ycm_extra_conf="/home/${USER}/.vim/.ycm_extra_conf.py"
+- add the following to .vimrc file: `let g:ycm_global_ycm_extra_conf="/home/${USER}/.vim/.ycm_extra_conf.py`
