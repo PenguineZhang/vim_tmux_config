@@ -11,3 +11,6 @@
 - `cd ~/.vim/bundle/youcompleteme`
 - `./install.sh`
 - add the following to .vimrc file: `let g:ycm_global_ycm_extra_conf="/home/${USER}/.vim/.ycm_extra_conf.py`
+
+# Install FZF command-line search
+https://github.com/junegunn/fzf
