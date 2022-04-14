@@ -121,6 +121,13 @@ nmap <leader><leader> V
 vmap <Leader>y "+y
 vmap <Leader>= <C-W><C-=>
 
+" insert newlines below without leaving normal mode
+nnoremap <Leader>o o<Esc>
+
+" insert newlines above without leaving normal mode
+nnoremap <Leader>O O<Esc>
+
+
 " switch tabs easier
 map  <C-l> :tabn<CR>                                                                                                                         
 map  <C-h> :tabp<CR>                                                                                                                         
