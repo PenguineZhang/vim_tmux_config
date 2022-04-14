@@ -116,7 +116,6 @@ nnoremap <Leader>gd :GoDef<Enter>
 nnoremap <Leader>pt :NERDTreeToggle<Enter>
 nnoremap <silent> <Leader>pv :NERDTreeFind<CR>
 nnoremap <silent> <Leader>vr :vertical resize 30<CR>
-nnoremap <silent> <Leader>;; iif err != nil { <esc>o} <esc>:w<CR>
 nmap <leader><leader> V
 vmap <Leader>y "+y
 vmap <Leader>= <C-W><C-=>
